@@ -3,6 +3,13 @@ const url = require('url');
 const path = require('path');
 const fs = require('fs');
 
+var mimeTypes = {
+  "html"  : "text/html",
+  "jpeg"  : "image/jpeg",
+  "jpg"   : "image/png",
+  "js"    : "text/javascript",
+  "css"   : "text/css"
+};
 
 const hostname = '127.0.0.1';
 const port = 3000;
